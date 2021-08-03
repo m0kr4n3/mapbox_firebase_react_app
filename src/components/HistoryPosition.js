@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import carIcon from './vector.svg';
-
+import mapboxAPItoken from "../mapboxAPItoken";
 
 
 const Map = ({car,loading}) => {
@@ -33,7 +33,7 @@ const Map = ({car,loading}) => {
     <div className="map">
       <ReactMapGL
         {...viewport}
-        mapboxApiAccessToken="pk.eyJ1IjoibW9rcmFuZTAwMjMiLCJhIjoiY2tud2theHFoMGg3czJvdGd6bTdxMjlrMSJ9.M3Pn1DMgCtLCU3Myd3ZciA"
+        mapboxApiAccessToken={mapboxAPItoken}
         mapStyle='mapbox://styles/mapbox/streets-v11'
         onViewportChange={viewport => {
           setViewport(viewport);

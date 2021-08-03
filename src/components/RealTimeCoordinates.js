@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import firebase from './firebase';
+import firebase from '../firebase';
 
 const RealTimeCoordinates = () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks

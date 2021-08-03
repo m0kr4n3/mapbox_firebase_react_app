@@ -11,6 +11,11 @@
 # production
 /build
 
+
+# API keys
+/src/components/firebase.js
+/src/mapboxAPItoken.js
+
 # misc
 .DS_Store
 .env.local
