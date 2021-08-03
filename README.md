@@ -3,6 +3,7 @@
 a reactJS applcation that uses Mapbox maps provider to show position, integrated with firestone database. 
 
 It has 2 options:
+
     1. Realtime position. (simultaneously changing position)
     2. History position. (where it consumes many positions of a path for exemple, and we control
     it with a slider, like watching a video)
