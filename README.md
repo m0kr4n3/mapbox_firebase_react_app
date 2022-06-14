@@ -1,4 +1,4 @@
-# a ReactJS app using MapBox and Firebase to show postion in maps
+# a ReactJS app using MapBox and Firebase to show position in maps
 
 a reactJS applcation that uses Mapbox maps provider to show position, integrated with firestone database. 
 
